@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="Documento" targetNamespace="FEL" xmlns:tns="FEL" xmlns:wsdlns="FEL" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns1="FEL" xmlns:jaxws="http://java.sun.com/xml/ns/jaxws">
+	<types>
+		<schema targetNamespace="FEL" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" elementFormDefault="qualified">
+			<element name="Documento.Execute">
+				<complexType>
+					<sequence>
+						<element minOccurs="1" maxOccurs="1" name="Cliente" type="xsd:string"/>
+						<element minOccurs="1" maxOccurs="1" name="Usuario" type="xsd:string"/>
+						<element minOccurs="1" maxOccurs="1" name="Clave" type="xsd:string"/>
+						<element minOccurs="1" maxOccurs="1" name="Nitemisor" type="xsd:string"/>
+						<element minOccurs="1" maxOccurs="1" name="Xmldoc" type="xsd:string"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="Documento.ExecuteResponse">
+				<complexType>
+					<sequence>
+						<element minOccurs="1" maxOccurs="1" name="Respuesta" type="xsd:string"/>
+					</sequence>
+				</complexType>
+			</element>
+		</schema>
+	</types>
+	<message name="Documento.ExecuteSoapIn">
+		<part name="parameters" element="tns:Documento.Execute"/>
+	</message>
+	<message name="Documento.ExecuteSoapOut">
+		<part name="parameters" element="tns:Documento.ExecuteResponse"/>
+	</message>
+	<portType name="DocumentoSoapPort">
+		<operation name="Execute">
+			<input message="wsdlns:Documento.ExecuteSoapIn"/>
+			<output message="wsdlns:Documento.ExecuteSoapOut"/>
+		 <jaxws:bindings>
+		  <jaxws:method name="ExecuteFirmaProd"/>
+		 </jaxws:bindings>
+		</operation>
+	 <jaxws:bindings>
+	  <jaxws:class name="DocumentoSoapPortProd"/>
+	 </jaxws:bindings>
+	</portType>
+	<binding name="DocumentoSoapBinding" type="wsdlns:DocumentoSoapPort">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="Execute">
+			<soap:operation soapAction="FELaction/ADOCUMENTO.Execute"/>
+			<input>
+				<soap:body use="literal"/>
+			</input>
+			<output>
+				<soap:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="Documento">
+		<port name="DocumentoSoapPort" binding="wsdlns:DocumentoSoapBinding">
+			<soap:address location="https://www.facturaenlineagt.com/adocumento"/>
+		 <jaxws:bindings>
+		  <jaxws:method name="DocumentoSoapPortProd"/>
+		 </jaxws:bindings>
+		</port>
+	 <jaxws:bindings>
+	  <jaxws:class name="DucumentoProd"/>
+	 </jaxws:bindings>
+	</service>
+</definitions>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://www.facturaenlineagt.com/adocumento?wsdl" uri="xml-resources/web-service-references/adocumento/wsdl/www.facturaenlineagt.com/adocumento.wsdl"/>
+    <system systemId="http://pruebas.ecofactura.com.gt:8080/fel/adocumento?wsdl" uri="xml-resources/web-service-references/adocumento_1/wsdl/pruebas.ecofactura.com.gt_8080/fel/adocumento.wsdl"/>
+    <system systemId="https://www.facturaenlineagt.com/aanulacion?wsd" uri="xml-resources/web-service-references/aanulacion_wsd/wsdl/www.facturaenlineagt.com/aanulacion.wsd.xml"/>
+    <system systemId="https://www.facturaenlineagt.com/aanulacion?wsdl" uri="xml-resources/web-service-references/aanulacion/wsdl/www.facturaenlineagt.com/aanulacion.wsdl"/>
+    <system systemId="http://pruebas.ecofactura.com.gt:8080/fel/aanulacion?wsdl" uri="xml-resources/web-service-references/aanulacion_1/wsdl/pruebas.ecofactura.com.gt_8080/fel/aanulacion.wsdl"/>
+</catalog>

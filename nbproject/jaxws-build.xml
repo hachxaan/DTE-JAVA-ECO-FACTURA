@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-adocumento" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/adocumento"/>
+        <property name="wsdl-adocumento" location="xml-resources/web-service-references/adocumento/wsdl/www.facturaenlineagt.com/adocumento.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/adocumento" destdir="${build.generated.dir}/jax-wsCache/adocumento" wsdl="${wsdl-adocumento}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="https://www.facturaenlineagt.com/adocumento?wsdl" xnocompile="true" xendorsed="true" package="FirmaProduccionPKG">
+            <depends file="${wsdl-adocumento}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/adocumento"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/adocumento">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-adocumento" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/adocumento"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/FirmaProduccionPKG"/>
+    </target>
+    <target name="wsimport-client-adocumento_1" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/adocumento_1"/>
+        <property name="wsdl-adocumento_1" location="xml-resources/web-service-references/adocumento_1/wsdl/pruebas.ecofactura.com.gt_8080/fel/adocumento.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/adocumento_1" destdir="${build.generated.dir}/jax-wsCache/adocumento_1" wsdl="${wsdl-adocumento_1}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://pruebas.ecofactura.com.gt:8080/fel/adocumento?wsdl" xnocompile="true" xendorsed="true" package="FirmaDesarrolloPKG">
+            <depends file="${wsdl-adocumento_1}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/adocumento_1"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/adocumento_1">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-adocumento_1" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/adocumento_1"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/FirmaDesarrolloPKG"/>
+    </target>
+    <target name="wsimport-client-aanulacion" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/aanulacion"/>
+        <property name="wsdl-aanulacion" location="xml-resources/web-service-references/aanulacion/wsdl/www.facturaenlineagt.com/aanulacion.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/aanulacion" destdir="${build.generated.dir}/jax-wsCache/aanulacion" wsdl="${wsdl-aanulacion}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="https://www.facturaenlineagt.com/aanulacion?wsdl" xnocompile="true" xendorsed="true" package="AnulacionProduccionPKG">
+            <depends file="${wsdl-aanulacion}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/aanulacion"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/aanulacion">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-aanulacion" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/aanulacion"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/AnulacionProduccionPKG"/>
+    </target>
+    <target name="wsimport-client-aanulacion_1" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/aanulacion_1"/>
+        <property name="wsdl-aanulacion_1" location="xml-resources/web-service-references/aanulacion_1/wsdl/pruebas.ecofactura.com.gt_8080/fel/aanulacion.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/aanulacion_1" destdir="${build.generated.dir}/jax-wsCache/aanulacion_1" wsdl="${wsdl-aanulacion_1}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://pruebas.ecofactura.com.gt:8080/fel/aanulacion?wsdl" xnocompile="true" xendorsed="true" package="AnulacionDesarrolloPKG">
+            <depends file="${wsdl-aanulacion_1}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/aanulacion_1"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/aanulacion_1">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-aanulacion_1" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/aanulacion_1"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/AnulacionDesarrolloPKG"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-adocumento, wsimport-client-adocumento_1, wsimport-client-aanulacion, wsimport-client-aanulacion_1"/>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stdTWS xmlns="FEL">
+	<TrnEstNum>1</TrnEstNum>
+	<TipTrnCod>NABN</TipTrnCod>
+	<TrnNum>6</TrnNum>
+	<TrnFec>2020-12-17</TrnFec>
+	<MonCod>GTQ</MonCod>
+	<TrnBenConNIT>CF</TrnBenConNIT>
+	<TrnExp>0</TrnExp>
+	<TrnExento>0</TrnExento>
+	<TrnEFACECliCod></TrnEFACECliCod>
+	<TrnEFACECliNom>JORGE PEREZ LOPEZ</TrnEFACECliNom>
+	<TrnEFACECliDir>CIUDAD DE GUATEMALA</TrnEFACECliDir>
+	<TrnObs></TrnObs>
+	<TrnEmail></TrnEmail>
+	<stdTWSD>
+		<stdTWS.stdTWSCIt.stdTWSDIt>
+			<TrnLiNum>1</TrnLiNum>
+			<TrnArtCod>10101</TrnArtCod>
+			<TrnArtNom>Producto rojo</TrnArtNom>
+			<TrnCan>1</TrnCan>
+			<TrnVUn>750</TrnVUn>
+			<TrnUniMed>UNI</TrnUniMed>
+			<TrnVDes>0</TrnVDes>
+			<TrnArtBienSer>B</TrnArtBienSer>
+			<TrnArtImpAdiCod>0</TrnArtImpAdiCod>
+			<TrnArtImpAdiUniGrav>0</TrnArtImpAdiUniGrav>
+		</stdTWS.stdTWSCIt.stdTWSDIt>
+		<stdTWS.stdTWSCIt.stdTWSDIt>
+			<TrnLiNum>2</TrnLiNum>
+			<TrnArtCod>20202</TrnArtCod>
+			<TrnArtNom>Producto Amarillo</TrnArtNom>
+			<TrnCan>5</TrnCan>
+			<TrnVUn>320.23</TrnVUn>
+			<TrnUniMed>UNI</TrnUniMed>
+			<TrnVDes>0</TrnVDes>
+			<TrnArtBienSer>B</TrnArtBienSer>
+			<TrnArtImpAdiCod>0</TrnArtImpAdiCod>
+			<TrnArtImpAdiUniGrav>0</TrnArtImpAdiUniGrav>
+		</stdTWS.stdTWSCIt.stdTWSDIt>
+	</stdTWSD>
+</stdTWS>

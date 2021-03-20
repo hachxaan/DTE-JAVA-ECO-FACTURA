@@ -1,0 +1,78 @@
+<stdTWS xmlns="FEL">
+	<TrnEstNum>1</TrnEstNum>
+	<TipTrnCod>FACT</TipTrnCod>
+	<TrnNum>200</TrnNum>
+	<TrnFec>2020-03-17</TrnFec>
+	<MonCod>GTQ</MonCod>
+	<TrnBenConNIT>CF</TrnBenConNIT>
+	<TrnExp>0</TrnExp>
+	<TrnExento>0</TrnExento>
+	<TrnFraseTipo>0</TrnFraseTipo>
+	<TrnEscCod>0</TrnEscCod>
+	<TrnEFACECliCod></TrnEFACECliCod>
+	<TrnEFACECliNom>Alfredo Solares</TrnEFACECliNom>
+	<TrnEFACECliDir>Ciudad</TrnEFACECliDir>
+	<TrnObs>0</TrnObs>
+	<TrnEmail>ABCD@gmail.com;ABCD@hotmail.com</TrnEmail>
+	<TrnCampAd01>ABCD 01</TrnCampAd01>
+	<TrnCampAd02>ABCD 02</TrnCampAd02>
+	<TrnCampAd03>ABCD 03</TrnCampAd03>
+	<TrnCampAd04>ABCD 04</TrnCampAd04>
+	<TrnCampAd05>ABCD 05</TrnCampAd05>
+	<TrnCampAd06>ABCD 06</TrnCampAd06>
+	<TrnCampAd07>ABCD 07</TrnCampAd07>
+	<TrnCampAd08>ABCD 08</TrnCampAd08>
+	<TrnCampAd09>ABCD 09</TrnCampAd09>
+	<TrnCampAd10>ABCD 10</TrnCampAd10>
+	<TrnCampAd11>ABCD 11</TrnCampAd11>
+	<TrnCampAd12>ABCD 12</TrnCampAd12>
+	<TrnCampAd13>ABCD 13</TrnCampAd13>
+	<TrnCampAd14>ABCD 14</TrnCampAd14>
+	<TrnCampAd15>ABCD 15</TrnCampAd15>
+	<TrnCampAd16>ABCD 16</TrnCampAd16>
+	<TrnCampAd17>ABCD 17</TrnCampAd17>
+	<TrnCampAd18>ABCD 18</TrnCampAd18>
+	<TrnCampAd19>ABCD 19</TrnCampAd19>
+	<TrnCampAd20>ABCD 20</TrnCampAd20>
+	<TrnCampAd21>ABCD 21</TrnCampAd21>
+	<TrnCampAd22>ABCD 22</TrnCampAd22>
+	<TrnCampAd23>ABCD 23</TrnCampAd23>
+	<TrnCampAd24>ABCD 24</TrnCampAd24>
+	<TrnCampAd25>ABCD 25</TrnCampAd25>
+	<TrnCampAd26>ABCD 26</TrnCampAd26>
+	<TrnCampAd27>ABCD 27</TrnCampAd27>
+	<TrnCampAd28>ABCD 28</TrnCampAd28>
+	<TrnCampAd29>ABCD 29</TrnCampAd29>
+	<TrnCampAd30>ABCD 30</TrnCampAd30>
+	<stdTWSD>
+		<stdTWS.stdTWSCIt.stdTWSDIt>
+			<TrnLiNum>1</TrnLiNum>
+			<TrnArtCod>10101</TrnArtCod>
+			<TrnArtNom>Gasolina Super</TrnArtNom>
+			<TrnCan>1</TrnCan>
+			<TrnVUn>28.50</TrnVUn>
+			<TrnUniMed>GAL</TrnUniMed>
+			<TrnVDes>0</TrnVDes>
+			<TrnArtBienSer>B</TrnArtBienSer>
+			<TrnArtImpAdiCod>2</TrnArtImpAdiCod>
+			<TrnArtImpAdiUniGrav>1</TrnArtImpAdiUniGrav>
+			<TrnDetCampAdi01>ABCD 01</TrnDetCampAdi01>
+			<TrnDetCampAdi02>ABCD 02</TrnDetCampAdi02>
+			<TrnDetCampAdi03>ABCD 03</TrnDetCampAdi03>
+			<TrnDetCampAdi04>ABCD 04</TrnDetCampAdi04>
+			<TrnDetCampAdi05>ABCD 05</TrnDetCampAdi05>
+		</stdTWS.stdTWSCIt.stdTWSDIt>
+		<stdTWS.stdTWSCIt.stdTWSDIt>
+			<TrnLiNum>2</TrnLiNum>
+			<TrnArtCod>20202</TrnArtCod>
+			<TrnArtNom>Gasolina Regular</TrnArtNom>
+			<TrnCan>5</TrnCan>
+			<TrnVUn>21.80</TrnVUn>
+			<TrnUniMed>GAL</TrnUniMed>
+			<TrnVDes>0</TrnVDes>
+			<TrnArtBienSer>B</TrnArtBienSer>
+			<TrnArtImpAdiCod>2</TrnArtImpAdiCod>
+			<TrnArtImpAdiUniGrav>2</TrnArtImpAdiUniGrav>
+		</stdTWS.stdTWSCIt.stdTWSDIt>
+	</stdTWSD>
+</stdTWS>
